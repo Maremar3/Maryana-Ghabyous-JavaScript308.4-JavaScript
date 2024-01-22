@@ -42,7 +42,7 @@ arr.splice(1,0,pp)
 let per={id: "7", name: "Bilbo", occupation: "None", age: "111" }
 let add=arr.push(per)
 console.log(arr)
-//calculate the average
+//calculate the averages of age
 let average;
 let intage=0
  for (let p=0;p<arr.length;p++){
@@ -50,7 +50,7 @@ let intage=0
     average=intage/arr.length
     //console.log(Object.values(workers))
  }
- /////console.log(average)
+ console.log(average)
  //---------------five---------------
  //transform the final set of data back into CSV format.
  /////console.log(arr)
